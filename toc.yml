@@ -157,6 +157,8 @@
                 - href: develop/ui/patterns/mobile/content/cardbackground.md
                 - href: develop/ui/patterns/mobile/content/cardsectioned.md
                 - href: develop/ui/patterns/mobile/content/flipcontent.md
+                - href: develop/ui/patterns/mobile/content/floatingcontent.md
+                - href: develop/ui/patterns/mobile/content/listitemcontent.md
                 - href: develop/ui/patterns/mobile/content/section.md
                 - href: develop/ui/patterns/mobile/content/tag.md
                 - href: develop/ui/patterns/mobile/content/tooltip.md
@@ -165,14 +167,25 @@
                 - href: develop/ui/patterns/mobile/interaction/animatedlabel.md
                 - href: develop/ui/patterns/mobile/interaction/carousel.md
                 - href: develop/ui/patterns/mobile/interaction/datepicker.md
+                - href: develop/ui/patterns/mobile/interaction/dropdownsearch.md
+                - href: develop/ui/patterns/mobile/interaction/dropdowntags.md
+                - href: develop/ui/patterns/mobile/interaction/floatingactions.md
+                - href: develop/ui/patterns/mobile/interaction/horizontalscroll.md
                 - href: develop/ui/patterns/mobile/interaction/inputwithicon.md
                 - href: develop/ui/patterns/mobile/interaction/lightboximage.md
+                - href: develop/ui/patterns/mobile/interaction/notification.md
                 - href: develop/ui/patterns/mobile/interaction/rangeslider.md
                 - href: develop/ui/patterns/mobile/interaction/rangesliderinterval.md
+                - href: develop/ui/patterns/mobile/interaction/search.md
                 - href: develop/ui/patterns/mobile/interaction/sidebar.md
                 - href: develop/ui/patterns/mobile/interaction/stackedcards.md
+                - href: develop/ui/patterns/mobile/navigation/bottombaritem.md
                 - href: develop/ui/patterns/mobile/navigation/breadcrumbs.md
+                - href: develop/ui/patterns/mobile/navigation/pagination.md
+                - href: develop/ui/patterns/mobile/navigation/sectionindex.md
+                - href: develop/ui/patterns/mobile/navigation/submenu.md
                 - href: develop/ui/patterns/mobile/navigation/tabs.md
+                - href: develop/ui/patterns/mobile/navigation/timelineitem.md
                 - href: develop/ui/patterns/mobile/numbers/badge.md
                 - href: develop/ui/patterns/mobile/numbers/counter.md
                 - href: develop/ui/patterns/mobile/numbers/iconbadge.md
@@ -283,6 +296,7 @@
     # Implement Application Logic
     - href: develop/logic/intro.md
     - topics: 
+        - href: develop/logic/expression-editor.md
         - href: develop/logic/ai-assisted-dev.md
         - href: develop/logic/actions.md
         - href: develop/logic/action-web.md
@@ -614,7 +628,7 @@
         - href: managing-the-applications-lifecycle/deploy-applications/tag-a-version.md
         - href: managing-the-applications-lifecycle/deploy-applications/deploy-an-application.md
         - href: managing-the-applications-lifecycle/deploy-applications/deployment-plans.md
-        - href: managing-the-applications-lifecycle/deploy-applications/ea-configure-site-properties-during-deploy.md
+        - href: managing-the-applications-lifecycle/deploy-applications/tp-configure-site-properties-during-deploy.md
         - href: managing-the-applications-lifecycle/deploy-applications/configure-application-settings-after-deployment.md
         - href: managing-the-applications-lifecycle/deploy-applications/deploy-an-application-with-dependencies.md
         - href: managing-the-applications-lifecycle/deploy-applications/deploy-a-single-module.md
@@ -639,7 +653,6 @@
         - href: managing-the-applications-lifecycle/app-feedback/user-feedback-send-mobile.md
         - href: managing-the-applications-lifecycle/app-feedback/user-feedback-send-web.md
         - href: managing-the-applications-lifecycle/app-feedback/user-feedback-handle.md
-        - href: managing-the-applications-lifecycle/app-feedback/user-feedback-add-onboard-screen.md
 
     - href: managing-the-applications-lifecycle/manage-it-teams/intro.md
     - topics:
@@ -1105,6 +1118,7 @@
                     - href: ref/ui-patterns/web/inputwithicon.md
                     - href: ref/ui-patterns/web/layout-login.md
                     - href: ref/ui-patterns/web/layout-loginsplit.md
+                    - href: ref/ui-patterns/web/layout-popup.md
                     - href: ref/ui-patterns/web/layout-sidemenu.md
                     - href: ref/ui-patterns/web/layout-topmenu.md
                     - href: ref/ui-patterns/web/lightbox-image.md
